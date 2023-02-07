@@ -4,17 +4,11 @@ import PlaygroundSupport
 struct ContentView: View {
   var body: some View {
     VStack(spacing: 0) {
-//      Color.green
-      Color.green
-      Color.green
-      Color.yellow
-      Color.orange
-      Color.red
       Color.purple
-      Color.blue
+
     }
     .mask(
-      Image(systemName: "applelogo")
+      Image(systemName: "brain.head.profile")
         .resizable()
         .aspectRatio(contentMode: .fit)
     )
